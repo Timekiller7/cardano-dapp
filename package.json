@@ -1,0 +1,85 @@
+{
+  "name": "use-cardano-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@emurgo/cardano-serialization-lib-asmjs": "^11.3.1",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "@mui/styles": "^5.11.13",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.4",
+    "ethers": "^5.6.2",
+    "lucid-cardano": "^0.8.8",
+    "npm": "^10.1.0",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "start": "^5.1.0",
+    "use-cardano": "^1.1.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "cross-env SERVE=true webpack serve",
+    "build": "webpack",
+    "build-prod": "webpack --mode=production",
+    "clean": "rd /s /q dist",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@pmmmwh/react-refresh-webpack-plugin": "github:pmmmwh/react-refresh-webpack-plugin",
+    "babel-loader": "^9.1.2",
+    "buffer": "^6.0.3",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "dotenv-webpack": "^8.0.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "interpolate-html-plugin": "^4.0.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.1.0",
+    "postcss-preset-env": "^8.1.0",
+    "react-refresh": "^0.14.0",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.1",
+    "ts-loader": "^9.4.2",
+    "typesafe-actions": "^5.1.0",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
+}

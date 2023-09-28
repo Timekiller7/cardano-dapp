@@ -1,0 +1,19 @@
+body {
+ line-height: normal !important;
+}
+
+.web3modal-modal-lightbox {
+  z-index: 9999 !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('TrueType');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
