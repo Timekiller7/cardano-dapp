@@ -28,6 +28,15 @@
 
 Все функции, необходимые для взаимодействия с блокчейном, написаны с помощью библиотеки Lucid и находятся в файле <a target="_blank" href="https://github.com/Timekiller7/cardano-dapp/blob/main/src/cardano/nft/offchain.ts">offchain.ts</a>
 
+### Demonstration
+ - <a target="_blank" href="https://drive.google.com/file/d/10AgdDO4oPmpq_8_3V1smWKtFzLWoiVU3/view?usp=sharing"><b>Покупка ЦФА</b></a>
+ - <a target="_blank" href="https://drive.google.com/file/d/1i9F8sQTYEWxMn-cbMI0PWnZsYj-nb3yH/view?usp=sharing"><b>Продажа ЦФА</b></a>
+ 
+### Difficulties
+- Нужен кошелек Nami/Eternl
+- Подключение к тестовой сети Preprod
+- Установление коллатерала в кошельке (для взаимодействия со смарт-контрактами)
+
 ### Scheme of minting transaction
 <img src="./MintingTxScheme.png" id="a"></img>
 В транзакции спендится два аутпута: один принадлежит скрипту (`mkHandlerValidator`),а другой - самого клиента, в котором хранится Ada, за которую можно купить ЦФА.
